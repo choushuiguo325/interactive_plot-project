@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>D3Times</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12  jumbotron text-center">
+        <h1>Correlation: Obesity/Smoker/Healthcare vs. Poverty/Age/Income</h1>
+        <p style="font-size: 1.5vw">Let's use the interactive plot to explore the relationship between these factors</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <div id="scatter">
+          <!-- We append our chart here. -->
+        </div>
+      </div>
+    </div>
+    </br>
+    <div class="row">
+      <div class="col-xs-12  col-md-12">
+        <div class="article">
+          <h2>Correlations Discovered Between Obesity/Smoker/Healthcare and Poverty/Age/Income</h2>
+          <p style='font-size: 24px; font-weight:500;'>The x and y labels are shown below:</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-6  col-md-6">
+          <ul><li>X-axis</li>
+            <ul><li>In Poverty (%)</li>
+            <li>Age (Median)</li>
+            <li>Household Income (Median)</li>
+          </ul></ul>
+      </div>
+      <div class="col-xs-6  col-md-6">
+          <ul><li>Y-axis</li>
+            <ul>
+            <li>Obese (%)</li>
+            <li>Smoke (%)</li>
+            <li>Lacks Healthcare (%)</li>
+          </ul></ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-12">
+          <p style='font-size: 24px; font-weight:500;'>Conclusion</p>
+          <ul>
+            <li><p>
+            From the scatter plot, it is clear to see that the obesity rate, smoking rate, lack of healthcare  have positive correlations with the poverty rate. But some states such as DC, New Mexico, etc., the poverty rate is high while the corresponding obese rate is relatively low, especially for DC, which has the second-lowest obesity rate in the country. This implies that more hidden factors are resulting in the correlation between poverty and obesity. 
+          </p></li>
+          <li><p>For the age factor, there is no clear relation between the age and smoking rate as well as between the age and lack of obesity rate,  as the data is spread all over the spectrum. </p></li>
+          <li><p>As for the household income by state, it can be inferred that there are negative correlations between household income and these three factors, including obesity rate, smoking rate, and lack of healthcare. </p></li>
+          <li><p>However, the causal relationships between the correlated factors can not be determined from the scatter plot. </p></li>
+        </ul></ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer-->
+  <div id="footer">
+    <p>&copy; Copyright Jiaping Shen 2020</p>
+    <a href='https://www.linkedin.com/in/jiaping-shen-b889901a6/' style='color:white'>Linkedin: <u>Jiaping Shen</u></a>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+
+
+</body>
+
+</html>

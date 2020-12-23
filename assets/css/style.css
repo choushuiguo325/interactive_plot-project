@@ -1,0 +1,53 @@
+.iframeContainer {
+  padding: 20px;
+  border: 1px solid #e3e3e3;
+}
+
+/* Sticky Footer rules (https://getbootstrap.com/examples/sticky-footer/) */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Padding bottom by footer height */
+  padding-bottom: 80px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; /* Set the fixed height of the footer here */
+  height: 50px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  text-align: center;
+  background-color:rgb(146,158,167);
+  color: white
+}
+
+#footer p {
+  margin: 0;
+  font-size: 16px;
+}
+
+
+.jumbotron{
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("background.jpg") no-repeat center center; 
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% auto;
+  background-color:white; 
+  font-size: 2.5vw;
+
+}
+
+.jumbotron h1 {
+  font-size: 2.5vw;
+  color: white;
+}
+
+.jumbotron p {
+  color: white;
+}
