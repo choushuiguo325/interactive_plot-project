@@ -41,6 +41,6 @@ The goal of the project is to create a responsive and interactive plot to explor
 - Contains the `data` file with the data used to plot
 - Contains the `js` with the `Javascript` code using the D3 library for the interactive plots
 
-### - Screenshots
+### - images
 
-- Contains the `gif` and `png` files with screenshots of the web page running
+- Contains the `gif` and `png` files with screenshots of the webpage running
