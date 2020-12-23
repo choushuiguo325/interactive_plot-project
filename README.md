@@ -10,15 +10,12 @@ The goal of the project is to create a responsive and interactive plot to explor
 
 - All the project files are contained in this repo.
 
----
 
 ### Sample Webpage Screenshot
 
----
 
 ![Screenshot](images/sample.png "Screenshot")
 
----
 
 ## Instructions
 
@@ -27,7 +24,6 @@ The goal of the project is to create a responsive and interactive plot to explor
 1. Run a python -m http.server or any other server for this purpose.
 2. Load the `index.html` file.
 
----
 
 ## File Description
 
